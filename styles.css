@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#page-heading {
+    margin-top: 20px;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.red-line {
+    border: 2px solid red;
+    width: 80%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.half {
+    width: 45%;
+    padding: 10px;
+}
+
+#vertical-line {
+    border-left: 2px solid #333;
+    height: 100px; 
+    margin: 0 10px;
+}
+
+#text-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 10%;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#textbox {
+    width: 70%;
+    height: 50%;
+    border: 1px solid black;
+}
+
+.logs-button-div {
+    margin: 50px;
+}
+
+#log-display-div {
+    margin-top: 50px;
+}
+
+#log-display {
+    width: 75%;
+}

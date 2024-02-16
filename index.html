@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remote Logger and Debugger</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    <h1 id="page-heading">Remote Logger and Debugger</h1>
+    <hr class="red-line">
+    
+    <div class="container">
+        <div class="half">
+            <div>
+                <button id="click-button">Click Me</button>
+            </div>
+            
+        </div>
+
+        <div id="vertical-line"></div>
+
+        <div class="half">
+            <input id="text-input" type="text" placeholder="Enter your input here...">
+        </div>
+    </div>
+    <div class="logs-button-div">
+        <button class="logs-button" id="show-log" onclick="displayLogs()">Show Logs</button>
+        <button class="logs-button" id="send-log" onclick="sendLogs()">Send Logs</button>
+    </div>
+
+    <hr>
+    <div id="log-display-div">
+        <textarea id="log-display" rows="10" readonly></textarea>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
